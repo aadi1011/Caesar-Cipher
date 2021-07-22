@@ -8,7 +8,7 @@ start:
 	char message[1000];
 	int key;
 	cout << "Enter message to encrypt/decrypt\n\n--> ";
-	cin.ignore(2, '\n');									//without this first 2 input char gets ommited. Reason:unknown
+	cin.ignore(2, '\n');			//prevents the cin.getline skip when looping 
 	cin.getline(message, 1000);
 	system("cls");
 	cout << "Message: " << "> " << message << endl;
@@ -35,12 +35,12 @@ sort:
 			if (ch >= 'a' && ch <= 'z')					//Lowercase Encryption
 			{
 				ch = ch + key;
-				if (ch>'z')
+				if (ch > 'z')
 				{
 					ch = ch - 'z' + 'a' - 1;
 				}
 				message[i] = ch;
-			}	
+			}
 			else if (ch >= 'A' && ch <= 'Z')			//Uppercase Encryption
 			{
 				ch = ch + key;
@@ -49,7 +49,7 @@ sort:
 					ch = ch - 'Z' + 'A' - 1;
 				}
 				message[i] = ch;
-			}	
+			}
 		}
 		cout << "Encrypted message: " << message << endl << endl;
 		system("pause");

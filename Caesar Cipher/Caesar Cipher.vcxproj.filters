@@ -18,8 +18,5 @@
     <ClCompile Include="Caesar Cipher.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Caesar Cipher Functions.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
