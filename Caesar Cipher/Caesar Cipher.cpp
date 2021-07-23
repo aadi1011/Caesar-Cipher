@@ -7,7 +7,7 @@ void main()
 start:
 	char message[1000];
 	int key;
-	cout << "Enter message to encrypt/decrypt\n\n--> ";
+	cout << "Enter message to encrypt/decrypt\n (place two spaces before typing sentence the first time)\n\n--> ";
 	cin.ignore(2, '\n');									//without this first 2 input char gets ommited. Reason:unknown
 	cin.getline(message, 1000);
 	system("cls");
