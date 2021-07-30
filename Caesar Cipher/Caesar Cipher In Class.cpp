@@ -108,9 +108,10 @@ void Cipher::decrypt()
 	system("pause");
 }
 
-void main()
+int main()
 {
 	Cipher C;
 	C.getInput();
 	C.UserChoice();
+	return 0;
 }
