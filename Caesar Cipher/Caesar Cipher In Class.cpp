@@ -26,13 +26,12 @@ void Cipher::getInput()
 	cout << endl << "Enter key: ";
 	cin >> key;
 	system("cls");
-	cout << "Message: " << message << "\nkey: " << key << endl;
 }
 
 void Cipher::UserChoice()
 {
-	
 	system("cls");
+	cout << "Message: " << message << "\nkey: " << key << endl;
 	cout << "\nEnter your choice: \n1. Encrypt\n2. Decrypt\n\n--> ";
 	cin >> choice;
 	if (choice == 1)
