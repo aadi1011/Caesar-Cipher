@@ -9,7 +9,7 @@ public:
 	void UserChoice();
 	void encrypt();
 	void decrypt();
-	void exit();
+	void askExit();
 	
 private:
 	char message[1000];
@@ -20,7 +20,7 @@ private:
 void Cipher::getInput()
 {
 	cout << "Enter message to encrypt/decrypt\n(place two spaces before typing sentence the first time)\n\n--> ";
-	cin.ignore(2, '\n');									//without this first 2 input char gets ommited. Reason:unknown
+	cin >> ws;
 	cin.getline(message, 1000);
 	system("cls");
 	cout << "Message: " << "> " << message << endl;
@@ -78,6 +78,7 @@ void Cipher::encrypt()
 	}
 	cout << "Encrypted message: " << message << endl << endl;
 	system("pause");
+	system("cls");
 }
 
 void Cipher::decrypt()
@@ -107,6 +108,33 @@ void Cipher::decrypt()
 	}
 	cout << "Decrypted message: " << message << endl << endl;
 	system("pause");
+	system("cls");
+}
+
+void Cipher::askExit()
+{
+	cout << "Would you like to use the cipher service again? (y/n)\n\n--> ";
+	char askexit;
+	cin >> askexit;
+	if (askexit == 'n' || askexit == 'N')
+	{
+		system("cls");
+		cout << "Thank you for using the cipher.\n\n";
+		exit(0);
+	}
+	else if (askexit == 'y' || askexit == 'Y')
+	{
+		system("cls");
+		Cipher::getInput();
+		Cipher::UserChoice();
+		Cipher::askExit();
+	}
+	else
+	{
+		system("cls");
+		cout << "\nInvalid input entered. Please try again using 'y' or 'n'\n\n";
+		Cipher::askExit();
+	}
 }
 
 int main()
@@ -114,5 +142,6 @@ int main()
 	Cipher C;
 	C.getInput();
 	C.UserChoice();
+	C.askExit();
 	return 0;
 }
