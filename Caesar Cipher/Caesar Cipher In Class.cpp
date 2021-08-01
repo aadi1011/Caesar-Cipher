@@ -9,6 +9,7 @@ public:
 	void UserChoice();
 	void encrypt();
 	void decrypt();
+	void exit();
 	
 private:
 	char message[1000];

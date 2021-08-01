@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Caesar Cipher In Class.cpp">
+    <ClCompile Include="Caesar Cipher.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
