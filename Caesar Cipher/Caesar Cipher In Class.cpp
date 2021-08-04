@@ -19,11 +19,11 @@ private:
 
 void Cipher::getInput()
 {
-	cout << "Enter message to encrypt/decrypt\n(place two spaces before typing sentence the first time)\n\n--> ";
+	cout << "Enter message to encrypt/decrypt\n\n--> ";
 	cin >> ws;
 	cin.getline(message, 1000);
 	system("cls");
-	cout << "Message: " << "> " << message << endl;
+	cout << "Message: " << message << endl;
 	cout << endl << "Enter key: ";
 	cin >> key;
 	system("cls");
