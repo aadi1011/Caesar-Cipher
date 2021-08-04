@@ -1,7 +1,13 @@
+//Caesar Cipher encryption code by ProxyHydra (github.com/ProxyHydra)
+
+/*Caesar Cipher is an encryption method that allow the user to encyprt their message by converting
+charecter of the text into the next or set of number changes according to the alphabetical line.*/
+
 #include <iostream>
 #include <string.h>
 using namespace std;
 
+//class of Cipher
 class Cipher
 {
 public:
@@ -12,15 +18,16 @@ public:
 	void askExit();
 	
 private:
-	char message[1000];
-	int key;
-	int choice;
+	char message[1000]; //if user requires to input message of more than 1000 charecters, change the [number] accordingly
+	int key;			//number of letters user wants to push ahead/behind
+	int choice;			//choice of encryption or decryption
 };
 
+//function to get user input of message/key
 void Cipher::getInput()
 {
 	cout << "Enter message to encrypt/decrypt\n\n--> ";
-	cin >> ws;
+	cin >> ws;					//clears the whitespaces from the previous input when program is used in loop.
 	cin.getline(message, 1000);
 	system("cls");
 	cout << "Message: " << message << endl;
@@ -29,6 +36,7 @@ void Cipher::getInput()
 	system("cls");
 }
 
+//function to act on user's choice of encryption or decryption
 void Cipher::UserChoice()
 {
 	system("cls");
@@ -51,6 +59,7 @@ void Cipher::UserChoice()
 	}
 }
 
+//encryption function
 void Cipher::encrypt()
 {
 	char ch;
@@ -81,6 +90,7 @@ void Cipher::encrypt()
 	system("cls");
 }
 
+//decryption function
 void Cipher::decrypt()
 {
 	char ch;
@@ -111,6 +121,8 @@ void Cipher::decrypt()
 	system("cls");
 }
 
+
+//funtion of exit menu
 void Cipher::askExit()
 {
 	cout << "Would you like to use the cipher service again? (y/n)\n\n--> ";
@@ -120,9 +132,9 @@ void Cipher::askExit()
 	{
 		system("cls");
 		cout << "Thank you for using the cipher.\n\n";
-		exit(0);
+		exit(0);		//program terminates
 	}
-	else if (askexit == 'y' || askexit == 'Y')
+	else if (askexit == 'y' || askexit == 'Y')	//executes the loop
 	{
 		system("cls");
 		Cipher::getInput();
