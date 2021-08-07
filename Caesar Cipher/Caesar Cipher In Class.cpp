@@ -1,7 +1,9 @@
 //Caesar Cipher encryption code by ProxyHydra (github.com/ProxyHydra)
 
 /*Caesar Cipher is an encryption method that allow the user to encyprt their message by converting
-charecter of the text into the next or set of number changes according to the alphabetical line.*/
+charecter of the text into the next or set of number changes according to the alphabetical line.
+This code is made using the OOP method using a class. If you want the same program but in a single function code,
+check out "Caesar Cipher.cpp*/
 
 #include <iostream>
 #include <string.h>
