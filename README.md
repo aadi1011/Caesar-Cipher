@@ -1,5 +1,7 @@
 # Caesar-Cipher
-Repository created by ProxyHydra (https://github.com/ProxyHydra)
+Repository created by ProxyHydra (<a href=https://github.com/ProxyHydra>github.com/ProxyHydra</a>)
+
+<h3>Install the latest release at: <a href=https://github.com/ProxyHydra/Caesar-Cipher-2/releases/tag/v1.1>Release v1.1</a> </h3>
 
 Encrypt a message or phrase using the Caesar Cipher encryption method 
 
