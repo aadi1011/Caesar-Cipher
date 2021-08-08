@@ -12,4 +12,4 @@ Caesar Cipher encryption is a method of substitution cipher where each letter of
 --> For example: With a key of 3, every 'A' in the message shifts 3 letters in the alphabet and becomes 'D'; 'B' becomes 'E'; 'Y' becomes 'C' and so on.</br>
 --> Encrypt as well as decrypt a ciphered message.</br>
 </br>
-More features adding soon!
+More features coming soon!
