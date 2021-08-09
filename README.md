@@ -13,3 +13,9 @@ Caesar Cipher encryption is a method of substitution cipher where each letter of
 --> Encrypt as well as decrypt a ciphered message.</br>
 </br>
 More features coming soon!
+
+
+<i>I have uploaded the codes for the cipher in C++ in two methods: single-function and OOP (in class), both tested and working.
+If you have any recommendations, find issues, let me know through the `issues` section. You can contact me via GitHub.</  i>
+
+
