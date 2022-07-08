@@ -1,5 +1,5 @@
 # Caesar-Cipher
-Repository created by ProxyHydra (<a href=https://github.com/aadi1011</a>). Contact for reuse, and issues.
+Repository created by Aadith (<a href="https://github.com/aadi1011">Aadi1011</a>). Contact for reuse, and issues.
 
 <h3>Install the latest release at: <a href=https://github.com/ProxyHydra/Caesar-Cipher-2/releases/tag/v1.1>Release v1.1</a> </h3>
 
