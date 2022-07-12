@@ -1,4 +1,4 @@
-//Caesar Cipher encryption code by ProxyHydra (github.com/ProxyHydra)
+//Caesar Cipher encryption code by Aadith Sukumar (github.com/aadi1011)
 
 /*Caesar Cipher is an encryption method that allow the user to encyprt their message by converting
 charecter of the text into the next or set of number changes according to the alphabetical line.
