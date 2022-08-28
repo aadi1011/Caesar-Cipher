@@ -17,7 +17,7 @@ More features coming soon!
 <i>Next update in works: Adding a reverse auto deciphering system using a dictionary.</i>
 
 <i>I have uploaded the codes for the cipher in C++ in two methods: single-function and OOP (in class), both tested and working.
-If you have any recommendations, find issues, let me know through the `issues` section. You can contact me via GitHub.</  i>
+If you have any recommendations, find issues, let me know through the `issues` section. You can contact me via GitHub.</i>
 
 Deployment in web-based application soon!
 
