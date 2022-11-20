@@ -153,9 +153,17 @@ void Cipher::askExit()
 
 int main()
 {
-	Cipher C;
+	// Welcome message
+    cout << "Caesar Cipher - by aadi1011 (https://www.github.com/aadi101).\n\n";
+    cout << "This program allows you to encrypt or decrypt a message using the Caesar Cipher method.\n\n";
+    cout << "Press any key to start...\n\n";
+    system("pause");
+    system("cls");
+
+    
+    Cipher C;
+    C.UserChoice();
 	C.getInput();
-	C.UserChoice();
 	C.askExit();
 	return 0;
 }
