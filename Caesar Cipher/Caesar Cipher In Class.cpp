@@ -42,8 +42,8 @@ void Cipher::getInput()
 void Cipher::UserChoice()
 {
 	system("cls");
-	cout << "Message: " << message << "\nkey: " << key << endl;
-	cout << "\nEnter your choice: \n1. Encrypt\n2. Decrypt\n\n--> ";
+	//cout << "Message: " << message << "\nkey: " << key << endl;
+	cout << "\nEnter your choice: \n1. Encrypt your message with a key\n2. Decrypt your message with a key\n3. Auto decrypt message\n\n--> ";
 	cin >> choice;
 	if (choice == 1)
 	{
@@ -53,6 +53,10 @@ void Cipher::UserChoice()
 	{
 		Cipher::decrypt();
 	}
+    else if (choice == 3)
+    {
+        Cipher::autoDecrypt();
+    }
 	else
 	{
 		cout << "Invalid input entered. Try again using '1' or '2'\n\n";
