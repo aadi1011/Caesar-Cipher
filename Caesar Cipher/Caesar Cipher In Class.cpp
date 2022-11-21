@@ -51,7 +51,7 @@ void Cipher::UserChoice()
 	}
 	else if (choice == 2)
 	{
-		Cipher::decrypt();
+		Cipher::decrypt()	;
 	}
     else if (choice == 3)
     {
@@ -127,6 +127,9 @@ void Cipher::decrypt()
 	system("cls");
 }
 
+//auto decryption function using brute force
+//comparing with the most used english words from the dictionary
+/*FUNCTION HERE*/
 
 //funtion of exit menu
 void Cipher::askExit()
