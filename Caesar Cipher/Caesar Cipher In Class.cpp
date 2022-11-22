@@ -129,6 +129,14 @@ void Cipher::decrypt()
 
 //auto decryption function using brute force
 //comparing with the most used english words from the dictionary
+
+//auto deciphering function
+//cross-checking if deciphered word exists in dictionary.txt file
+void Cipher::autoDecrypt()
+{
+	//dictionary.txt file contains all the words in the english language
+	//if you want to use your own dictionary, change the file name accordingly
+
 /*FUNCTION HERE*/
 
 //funtion of exit menu
