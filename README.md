@@ -19,5 +19,4 @@ More features coming soon!
 <i>I have uploaded the codes for the cipher in C++ in two methods: single-function and OOP (in class), both tested and working.
 If you have any recommendations, find issues, let me know through the `issues` section. You can contact me via GitHub.</i>
 
-Upcoming: Deployment in web-based application
-
+Upcoming: Deployment in web-based or software based application!
